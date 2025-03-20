@@ -28,6 +28,13 @@
     padding: 4rem;
     color: #1f2933;
   }
+
+  section:first-child {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
   
   h2 {
     font-size: 3.2rem;
@@ -48,13 +55,11 @@
     cursor: pointer;
     background: var(--green);
     padding: 2rem 6rem;
-    border-radius: 1rem 1rem 0 0;
     font-size: 1.4rem;
   }
   
   button:last-child {
     background: var(--red);
-    border-radius: 0 0 1rem 1rem;
   }
 
   /* game screen */
